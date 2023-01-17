@@ -94,21 +94,19 @@ h2{
 .text_check::before{
     content: '\2713';
     color: green;
-    width: 16px;
-    height: 16px;
     border: 1px solid green;
     border-radius: 100%;
     margin-right: 5px;
+    padding: 3px;
 }
 
 .text_cross::before{
     content: '\2718';
     color: red;
-    width: 16px;
-    height: 16px;
     border: 1px solid red;
     border-radius: 100%;
     margin-right: 5px;
+    padding: 3px;
 }
 
 .tags{
