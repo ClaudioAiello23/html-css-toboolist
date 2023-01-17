@@ -1,3 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#F6F8F9;
+}
+
+/*
+_____________________________
+           Header
+_____________________________
+*/
+
+header{
+    background-color:white;
+}
+
 .logo{
     display: inline-block;
 }
@@ -7,4 +26,38 @@ h1{
     font-family: 'Roboto', sans-serif;
     vertical-align: middle;
     font-size: 40px;
+}
+
+/*
+_____________________________
+            Main
+_____________________________
+*/
+
+main{
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.button{
+    border-bottom: 1px solid lightgray;
+}
+
+#taskbutton{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #47ADF1;
+    background-color: #47ADF1;
+    color: white;
+}
+
+#sectionbutton{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: grey;
+    border-color: grey;
 }
