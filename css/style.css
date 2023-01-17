@@ -40,7 +40,9 @@ main{
     max-width: 1000px;
     height: 650px;
     margin: 40px auto;
+    border-radius: 10px;
     }
+
 
 /*
 _____________________________
