@@ -92,8 +92,17 @@ h2{
     margin-right: 5px;
 }
 
-.tags_list{
-    background-color:#45ABEA ;
+.text_cross::before{
+    content: '\2718';
+    color: red;
+    width: 16px;
+    height: 16px;
+    border: 1px solid red;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.tags{
     color:white;
     font-size: 10px;
     padding: 8px;
@@ -102,5 +111,25 @@ h2{
 
 .text_check{
     display: inline-block;
+}
+
+.text_cross{
+    display: inline-block;
+}
+
+.editorial{
+    background-color:#45ABEA ;
+}
+
+.q1_goals{
+    background-color: #9C72E4 ;
+}
+
+.recruiting{
+    background-color: #65C1AA ;
+}
+
+.mobile{
+    background-color:#F29E33 ;
 }
 
